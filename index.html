@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Conversor de moedas</title>
+</head>
+
+<body>
+
+    <img class="img-logo" src="./logo 1 (1).png" alt="">
+
+    <div class="div-wraper">
+
+        <p class="paragraph">Converter <span>de</span></p>
+
+        <input class="input-real" placeholder="R$ Real brasileiro">
+
+        <p class="p-convert">converter <span>para</span></p>
+
+        <select onchange="troqueiNoSelect()" class="select-one">
+            <option value="dolar">US$ Dólar americano</option>
+            <option value="euro">€ Euro</option>
+            <option value="libra">£ Libra </option>
+            <option value="franco-suiço">CHF Franco suiço </option>
+        </select>
+
+        <p class="p-value">Valor</p>
+
+        <input class="digit-value" placeholder="Digite o Valor">
+
+        <button onclick="buttonClicked()" class="button-convert">Converter</button>
+
+        <div class="div-two">
+
+            <img class="brazil-img" src="./brasil 2 (1).png" alt="">
+
+            <p class="Real">Real</p>
+
+            <h1 class="h1-value"> R$ 00,00</h1>
+
+            <img class="img-vector" src="./Vector (1).png" alt="">
+
+            <img class="img-usd" src="./estados-unidos (1) 1 (1).png" alt="">
+
+            <h1 class="dolar-usd">Dólar Americano</h1>
+
+            <h1 class="value-end"> R$ 00,00</h1>
+
+        </div>
+    </div>
+</body>
+<script src="./javascript.js"></script>
+
+</html>
